@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="font-hanken flex h-screen w-screen items-center justify-center">
+      <div
+        class="shadow-light-lavender flex h-[512px] w-[740px] flex-row rounded-3xl bg-white shadow-2xl"
+      >
+        <div
+          class="from-light-slate-blue to-light-royal-blue flex h-full w-1/2 flex-col rounded-3xl bg-gradient-to-b px-[60px] py-[45px] text-center"
+        >
+          <p class="text-light-lavender text-2xl font-medium">Your Result</p>
+          <div
+            class="from-violet-blue to-persian-blue my-[40px] self-center rounded-full bg-gradient-to-b px-[62px] pb-[45px] pt-[55px]"
+          >
+            <p class="text-7xl font-semibold text-white">76</p>
+            <p class="text-light-lavender text-base font-semibold">of 100</p>
+          </div>
+          <p class="self-center text-3xl font-semibold text-white">Great</p>
+          <p
+            class="align-self text-light-lavender mt-[10px] text-[18px] font-thin leading-tight"
+          >
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="flex h-full w-1/2 flex-col px-[40px] py-[45px]">
+          <p class="text-dark-gray-blue mb-[5px] text-2xl font-extrabold">
+            Summary
+          </p>
+          <div
+            class="bg-lighter-red mt-[16px] flex flex-row items-center justify-between rounded-[8px] px-[16px] py-[18px] font-medium"
+          >
+            <div class="flex flex-row items-center">
+              <img
+                src="/assets/images/icon-reaction.svg"
+                alt="reaction"
+                class="h-[22px]"
+              />
+              <p class="text-light-red ml-[12px] text-xl font-bold">Reaction</p>
+            </div>
+            <div>
+              <p class="text-light-lavender text-xl font-extrabold">
+                <span class="text-dark-gray-blue">80</span> / 100
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-light-orangey-yellow mt-[16px] flex flex-row items-center justify-between rounded-[8px] px-[16px] py-[18px] font-medium"
+          >
+            <div class="flex flex-row items-center">
+              <img
+                src="/assets/images/icon-memory.svg"
+                alt="reaction"
+                class="h-[22px]"
+              />
+              <p class="text-orangey-yellow ml-[12px] text-xl font-bold">
+                Memory
+              </p>
+            </div>
+            <div>
+              <p class="text-light-lavender text-xl font-extrabold">
+                <span class="text-dark-gray-blue">92</span> / 100
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-light-green-teal mt-[16px] flex flex-row items-center justify-between rounded-[8px] px-[16px] py-[18px] font-medium"
+          >
+            <div class="flex flex-row items-center">
+              <img
+                src="/assets/images/icon-verbal.svg"
+                alt="reaction"
+                class="h-[22px]"
+              />
+              <p class="text-green-teal ml-[12px] text-xl font-bold">Verbal</p>
+            </div>
+            <div>
+              <p class="text-light-lavender text-xl font-extrabold">
+                <span class="text-dark-gray-blue">61</span> / 100
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-light-cobalt-blue mt-[16px] flex flex-row items-center justify-between rounded-[8px] px-[16px] py-[18px] font-medium"
+          >
+            <div class="flex flex-row items-center">
+              <img
+                src="/assets/images/icon-visual.svg"
+                alt="reaction"
+                class="h-[22px]"
+              />
+              <p class="text-cobalt-blue ml-[12px] text-xl font-bold">Visual</p>
+            </div>
+            <div>
+              <p class="text-light-lavender text-xl font-extrabold">
+                <span class="text-dark-gray-blue">72</span> / 100
+              </p>
+            </div>
+          </div>
+          <button
+            class="from-light-slate-blue to-light-royal-blue bg-dark-gray-blue mt-[10px] cursor-pointer rounded-full bg-none py-[13px] text-xl font-medium text-white transition-[background-image] duration-300 ease-in-out hover:bg-gradient-to-b"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
